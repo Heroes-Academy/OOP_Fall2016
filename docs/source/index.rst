@@ -1,7 +1,7 @@
 .. OOP course documentation. In development
 .. Author: Brian McMahan
 
-HEROES Academy: Object Oriented Programming, Spring 2016
+HEROES Academy: Object Oriented Programming, Fall 2016
 ========================================================
 
 Course Description

@@ -34,7 +34,47 @@ __ HeroesSite_
 
 Contents:
 
+
+.. toctree::
+   :maxdepth: 3
+   :caption: Getting Started
+
+   info
+   installing
+
 .. toctree::
    :maxdepth: 2
+   :caption: Hello PyGame
 
-   resources
+   week1
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Using Objects
+
+   week2
+   week3
+   week4
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Making Objects
+
+   week5
+   week6
+   week7
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Designing Objects
+
+   week8
+   week9
+   week10
+
+
+.. .. toctree:\:
+..    :maxdepth: 2
+..    :caption: Resources and Guides
+
+..    env101

@@ -2,7 +2,7 @@
 .. Author: Brian McMahan
 
 HEROES Academy: Object Oriented Programming, Fall 2016
-========================================================
+======================================================
 
 Course Description
 ==================

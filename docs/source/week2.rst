@@ -1,4 +1,4 @@
-[Week 2] Objects in PyGame
+[Week 2] Mastering State
 
 Summary
 -------

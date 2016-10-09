@@ -7,7 +7,11 @@ Welcome to the first week of Object Oriented Programming with Python and Pygame!
 Summary
 -------
 
-Today is the first day!  After the class, I will post a summary.
+We went over the basics of Python to see what parts of Python would need to be practiced.
+
+After the assessment, we started playing with PyGame, beginning with a tour
+of the game loop.  We spent the rest of the classing playing with the basic
+objects of Pygame.
 
 
 Review

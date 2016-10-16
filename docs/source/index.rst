@@ -41,6 +41,7 @@ Contents:
 
    info
    installing
+   pygame
 
 .. toctree::
    :maxdepth: 2

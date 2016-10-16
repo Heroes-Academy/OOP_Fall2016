@@ -19,6 +19,7 @@ Important Concepts
     - A code block which packages the code and provides a shortcut to executing the code
     - The code below shows how to pass information in, how to get information out
     - **important**: remember that scope means what variables can be "seen" inside and outside the function
+Example:
 ::
     def hello_x(x):
         y = "hello {}".format(x)
@@ -28,6 +29,7 @@ Important Concepts
 
 2. Dictionaries
     - A python variable type that allows you to map keys to values
+Example
 ::
     bob = dict()
     bob['name'] = 'bob'

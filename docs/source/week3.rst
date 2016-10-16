@@ -52,7 +52,7 @@ To be further defined after class.
 Slides
 ------
 
-.. raw::html
+.. raw:: html
 
     <iframe src="https://docs.google.com/presentation/d/1DXPtoipi3ASEIk2-CC5JyRa_ow2of-8JOQEA8mDPneA/embed?start=false&loop=false&delayms=60000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 

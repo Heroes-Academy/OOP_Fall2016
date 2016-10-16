@@ -9,7 +9,8 @@ Now that we've started to practice mastering the state of objects
 
 In-class code
 *************
-1. `Basic Pygame <
+1. `Basic Pygame Template <https://github.com/Heroes-Academy/OOP_Fall2016/blob/master/code/base_pygame.py>`_
+2. `Basic stick figure <https://github.com/Heroes-Academy/OOP_Fall2016/blob/master/code/week3/basic_stick.py>`_
 
 Important Concepts
 ******************

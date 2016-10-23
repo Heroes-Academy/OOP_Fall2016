@@ -27,7 +27,6 @@ Common Issues
     - this is can be an issue sometimes with the way Python was installed.
     - I have had this happen to me with Anaconda
     - Try the following:
-
 ::
     In the Anaconda menu, choose Tools, then "open command prompt".
 

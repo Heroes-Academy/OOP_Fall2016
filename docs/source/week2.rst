@@ -1,5 +1,5 @@
-[Week 2] Mastering State
-========================
+[Week 2] Introducing State
+==========================
 
 Summary
 -------

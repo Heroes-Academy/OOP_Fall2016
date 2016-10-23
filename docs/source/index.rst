@@ -56,19 +56,14 @@ Contents:
    week2
    week3
    week4
+   week5
 
 .. toctree::
    :maxdepth: 2
-   :caption: Making Objects
+   :caption: Mastering Objects
 
-   week5
    week6
    week7
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Designing Objects
-
    week8
    week9
    week10

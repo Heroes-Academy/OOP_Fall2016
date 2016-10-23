@@ -1,5 +1,5 @@
-[Week 3] Intro to Encapsulation
-===============================
+[Week 3] Encapsulating code
+===========================
 
 Summary
 -------

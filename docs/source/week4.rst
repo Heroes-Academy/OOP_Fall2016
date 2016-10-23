@@ -9,7 +9,15 @@ Last week we looked at how to encapsulate code.  There were some hiccups so we w
 Part 1: Encapsulation Exercise
 ******************************
 
-:doc:`Link to exercises <encapsulation_exercises>`_
+:doc:`Link to exercises <encapsulation_exercises.rst>`
+
+:doc:`Link to exercises <encapsulation_exercises>`
+
+:ref:`Link to exercises <encapsulation_exercises>`
+
+:ref:`Link to exercises <encapsulation_exercises.rst>`
+
+:ref:`encapsulation_exercises`
 
 On this page, you will find a set of exercises.  They are to help you understand what it means to encapsulate code and why it is useful.
 

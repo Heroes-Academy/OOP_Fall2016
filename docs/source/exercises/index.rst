@@ -3,6 +3,6 @@ Exercises
 
 .. toctree::
    :glob:
-   :maxdepth: 1
+   :maxdepth: 0
    
    *

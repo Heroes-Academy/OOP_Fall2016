@@ -271,11 +271,11 @@ Using the property decorator for a class:
         
         @property
         def right_side(self):
-            return self.x + w
+            return self.x + self.w
             
     box = Box()
     print(box.print_info, type(box.print_info))
     print(box.right_side, type(box.right_side))
-    
+
     
     

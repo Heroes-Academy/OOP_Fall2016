@@ -9,17 +9,11 @@ Last week we looked at how to encapsulate code.  There were some hiccups so we w
 Part 1: Encapsulation Exercise
 ******************************
 
-:doc:`Link to exercises <encapsulation_exercises.rst>`
+On the following page, you will find a set of exercises.
+They are to help you understand what it means to encapsulate code and why it is useful.
 
-:doc:`Link to exercises <encapsulation_exercises>`
+:doc:`Encapsulation Exercises <encapsulation_exercises.rst>`
 
-:ref:`Link to exercises <encapsulation_exercises>`
-
-:ref:`Link to exercises <encapsulation_exercises.rst>`
-
-:ref:`encapsulation_exercises`
-
-On this page, you will find a set of exercises.  They are to help you understand what it means to encapsulate code and why it is useful.
 
 
 Part 2: Creating an Object
@@ -44,4 +38,5 @@ We create our object by using the class like a function.
 This is usually referred to as "construction" or "instantiation".
 
 For the rest of this part, you will make your own objects to represent boxes.
-:doc:`Click here for the exercises <intro_object_exercises>`_
+
+:doc:`Click here for the exercises <intro_object_exercises.rst>`

@@ -46,7 +46,7 @@ Example
 Homework
 --------
 
-To be further defined after class.
+See the slides for more information.  The basic gist: practice dictionaries and functions.
 
 
 Slides

@@ -11,7 +11,14 @@ Part 1: Encapsulation Exercise
 
 On the following page, you will find a set of exercises.
 They are to help you understand what it means to encapsulate code and why it is useful.
+
+:doc:`Encapsulation Exercises <encapsulation_exercises>`
+
 :doc:`Encapsulation Exercises <encapsulation_exercises.rst>`
+
+:ref:`Encapsulation Exercises <encapsulation_exercises.rst>`
+
+:ref:`Encapsulation Exercises <encapsulation_exercises>`
 
 
 

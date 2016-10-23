@@ -36,6 +36,6 @@ I expect that...
 How do I contact you?
 ---------------------
 
-You can reach me anytime at bmcmahan@njgifted.org
+You can reach me anytime at teacher@njgifted.org
 
 

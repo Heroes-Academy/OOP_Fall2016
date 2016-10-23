@@ -140,19 +140,30 @@ Add the following code into update_position.  Your Box class will need a new var
     #          x += y
     # is the same as
     #          x = x + y
-    gravity = 9.8
-    acceleration = gravity / box_info.mass
-    box_info.speedy += gravity
+    
+    ### for physics
+    
+    upforce = 0 # should be some number, maybe from bouncing or jumping
+    
+    gravity = 9.8 # is positive because 0 is the top and we want it to fall down 
+    downforce = gravity * box_info.mass
+    
+    totalforce = downforce+upforce 
+    acceleration = totalforce / box_info.mass
+    
+    ### update speeds and locations
+    box_info.speedy += acceleration
+    box_info.y += box_info.speedy
+    
 
 
-Play with different values of gravity.  Also, play with different values of mass.
+Play with different values of gravity.  
 
 
 Exercise 3
 **********
 
 Let's add a function into our class so that it can draw itself.
-
 
 
 .. code-block:: python
@@ -210,3 +221,58 @@ You could also have your box jump with space. Note that this last one requires t
                 print("do something here!")
             elif event.key == pygame.K_RIGHT:
                 print("do something here!")
+                
+                
+**Thinking about gravity and jumping**
+
+Gravity is a force that acts on the y direction of an object. 
+Specifically, if your object has a speed, then it is accelerating downwards by gravity. 
+If you jump, you are accelerating upwards.  
+
+Force is equal to mass times acceleration---:math:`F = m*a`. 
+So, to get acceleration from two forces (gravity and jumping), we do
+:math:`a=F/m`.  Jumping is our force upwards, gravity is our force downwards. 
+
+.. code-block:: python
+    :linenos:
+    
+    def compute_acceleration(box, did_jump=False):
+        gravity_force = 9.8 * box.mass
+        downforce = gravity_force # + any other downward forces
+        
+        if did_jump:
+            jump_force = somenumber * box.mass
+        else:
+            jump_force = 0
+        upforce = jump_force # + any other upward forces; maybe bouncing
+        
+        total_force = downforce + upforce
+        acceleration = total_force / box.mass # f = m*a
+        
+        return acceleration
+        
+        
+Extra stuff
+***********
+
+.. code-block:: python
+    :linenos:
+    
+    class Box:
+        x = 0
+        y = 0
+        w = 0
+        h = 0
+        
+        def print_info(self):
+            pass
+        
+        @property
+        def right_side(self):
+            return self.x + w
+            
+    box = Box()
+    box.right_side
+    
+    
+    

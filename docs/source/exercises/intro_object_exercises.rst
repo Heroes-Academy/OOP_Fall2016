@@ -321,3 +321,27 @@ Using the property decorator for a class:
     box.x = 50
     print(box.print_info, type(box.print_info))
     print(box.right_side, type(box.right_side))
+
+
+Up-Down triggers
+****************
+
+Let's say you want somethign constant to be happening while a button is pressed.
+You could do the following:
+
+.. code-block:: python
+    :linenos:
+    
+    ### inside WHILE LOOP section    
+    for event in pygame.event.get():
+        ## standard quit 
+        if event.type == pygame.QUIT:
+            done = True
+        elif event.type == pygame.KEYDOWN:
+            if event.key == pygame.K_SPACE:
+                spacedown = True
+        elif event.type == pygame.KEYUP:
+            if event.key == pygame.K_SPACE:
+                spacedown = False
+                
+

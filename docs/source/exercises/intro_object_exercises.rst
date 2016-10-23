@@ -255,14 +255,16 @@ So, to get acceleration from two forces (gravity and jumping), we do
 Extra stuff
 ***********
 
+Using the property decorator for a class:
+
 .. code-block:: python
     :linenos:
     
     class Box:
         x = 0
         y = 0
-        w = 0
-        h = 0
+        w = 10
+        h = 10
         
         def print_info(self):
             pass
@@ -272,7 +274,8 @@ Extra stuff
             return self.x + w
             
     box = Box()
-    box.right_side
+    print(box.print_info, type(box.print_info))
+    print(box.right_side, type(box.right_side))
     
     
     

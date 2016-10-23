@@ -183,3 +183,30 @@ Let's add a function into our class so that it can draw itself.
     ## box = Box()
     ## then, later, you can use it with
     ## box.update_position()
+
+
+
+
+Exercise 4
+**********
+
+Let's make this more interactive!  
+For each of the following key tests, you can change some variable inside your object. 
+For instance, you could have left and right increase or decrease the speedx.
+You could also have your box jump with space. 
+
+.. code-block:: python
+    :linenos:
+    
+    ### inside WHILE LOOP section    
+    for event in pygame.event.get():
+        ## standard quit 
+        if event.type == pygame.QUIT:
+            done = True
+        elif event.type == pygame.KEYDOWN:
+            if event.key == pygame.K_SPACE:
+                print("Do something here!")
+            elif event.key == pygame.K_LEFT:
+                print("do something here!")
+            elif event.key == pygame.K_RIGHT:
+                print("do something here!")

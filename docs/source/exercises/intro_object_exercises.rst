@@ -193,7 +193,7 @@ Exercise 4
 Let's make this more interactive!  
 For each of the following key tests, you can change some variable inside your object. 
 For instance, you could have left and right increase or decrease the speedx.
-You could also have your box jump with space. 
+You could also have your box jump with space. Note that this last one requires thinking about gravity a bit more. 
 
 .. code-block:: python
     :linenos:

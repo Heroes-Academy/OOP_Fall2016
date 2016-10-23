@@ -59,6 +59,7 @@ Inside the ACTION CODE section:
     pygame.draw.rect(surface, BLACK, [origin_x, origin_y, square_width, square_height])
 
 **Your task:**
+
 1. Create a second rectangle and that has different starting x and y variables.
     - In other words, create two new variables and use them to draw a new rectangle.
     - Use the same height and width as the first rectangle.
@@ -85,6 +86,7 @@ Inside the ACTION CODE section:
     pygame.draw.rect(surface, BLACK, [box_info['x'], box_info['y'], box_info['width'], box_info['height']])
 
 **Your task:**
+
 1. Create a second rectangle that is made up of a second dictionary.
     - It should be drawn in the exact same way as the first one, but using the second dictionary.
 
@@ -113,7 +115,8 @@ Inside the ACTION CODE section:
     pygame.draw.rect(surface, BLACK, [box_info['x'], box_info['y'], box_info['width'], box_info['height']])
 
 **Your task:**
-    1. Create a second rectangle using the function.   Draw this rectangle as you did in example 2.
+
+1. Create a second rectangle using the function.   Draw this rectangle as you did in example 2.
 
 
 Example 4
@@ -143,11 +146,13 @@ Inside the ACTION CODE section:
     draw_box(surface, BLACK, box_info)
 
 **Your task:**
+
 1. Create a second rectangle as you have in the past couple of examples.  Draw it in the same way.
 
 Final Task
 **********
 You will create two new functions:
+
 1. :code:`make_circle`
     - use a dictionary to represent the necessary variables for a circle
     - it needs x, y, and radius.

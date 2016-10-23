@@ -69,23 +69,31 @@ Contents:
    week10
    
 .. toctree::
+   :glob:
    :maxdepth: 1
    :caption: Supplementary
    
    exercises/*
    
 .. toctree::
+   :glob:
    :maxdepth: 2
    :caption: Supplementary
    
-   exercises/*
+   exercises/* 
 
 .. toctree::
+   :glob:
    :maxdepth: 2
    :caption: Supplementary
    
    exercises/
 
+.. toctree::
+   :maxdepth: 2
+   :caption: Supplementary
+   
+   exercises/index.rst
 .. .. toctree:\:
 ..    :maxdepth: 2
 ..    :caption: Resources and Guides

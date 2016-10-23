@@ -202,7 +202,8 @@ Extra stuff
 Class __init__ method
 *********************
     
-Using the :code:`__init__` constructor:
+Using the :code:`__init__` method lets you pass variables into the creation of the object.
+This is also called a "constructor" method.
 
 .. code-block:: python
     :linenos:
@@ -214,16 +215,7 @@ Using the :code:`__init__` constructor:
             self.w = w
             self.h = h
         
-        def print_info(self):
-            pass
-        
-        @property
-        def right_side(self):
-            return self.x + self.w
-            
     box = Box(50, 50, 100, 100)
-    print(box.print_info, type(box.print_info))
-    print(box.right_side, type(box.right_side))
 
 
 

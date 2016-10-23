@@ -69,7 +69,7 @@ Contents:
    week10
    
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Supplementary
    
    exercises/index.rst

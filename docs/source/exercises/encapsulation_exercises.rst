@@ -1,7 +1,8 @@
 Encapsulation Exercises
 =======================
 
-These examples go through and make the encapsulation more and more complete for moving a square around the screen.
+These exercises go through and make the encapsulation more and 
+more complete for moving a square around the screen.
 
 **STEP ONE**
 
@@ -9,7 +10,7 @@ Use the template.
 These examples assume that you are using the basic pygame template.
  `Get it here <https://github.com/Heroes-Academy/OOP_Fall2016/blob/master/code/base_pygame.py>`_
 
-The examples have two parts: defining the information for the square and then using that information.
+The exercises have two parts: defining the information for the square and then using that information.
 
 Anatomy of the Pygame loop
 **************************
@@ -39,7 +40,7 @@ Anatomy of the Pygame loop
     # do any last finishing code things here
     # the important one is to tell pygame shut down
 
-Example 1
+Exercise 1
 *********
 
 Inside the INIT section:
@@ -68,7 +69,7 @@ Inside the ACTION CODE section:
     - Use the same height and width as the first rectangle.
 
 
-Example 2
+Exercise 2
 *********
 
 Inside the INIT section:
@@ -94,7 +95,7 @@ Inside the ACTION CODE section:
     - It should be drawn in the exact same way as the first one, but using the second dictionary.
 
 
-Example 3
+Exercise 3
 *********
 
 Inside the INIT section:
@@ -119,10 +120,10 @@ Inside the ACTION CODE section:
 
 **Your task:**
 
-1. Create a second rectangle using the function.   Draw this rectangle as you did in example 2.
+1. Create a second rectangle using the function.   Draw this rectangle as you did in exercise 2.
 
 
-Example 4
+Exercise 4
 *********
 
 Inside the INIT section:
@@ -150,7 +151,7 @@ Inside the ACTION CODE section:
 
 **Your task:**
 
-1. Create a second rectangle as you have in the past couple of examples.  Draw it in the same way.
+1. Create a second rectangle as you have in the past couple of exercises.  Draw it in the same way.
 
 Final Task
 **********

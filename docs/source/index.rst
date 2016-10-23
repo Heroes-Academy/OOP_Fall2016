@@ -69,12 +69,22 @@ Contents:
    week10
    
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 1
    :caption: Supplementary
    
-   exercises/intro_object_exercises
-   exercises/encapsulation_exercises
+   exercises/*
+   
+.. toctree::
+   :maxdepth: 2
+   :caption: Supplementary
+   
+   exercises/*
 
+.. toctree::
+   :maxdepth: 2
+   :caption: Supplementary
+   
+   exercises/
 
 .. .. toctree:\:
 ..    :maxdepth: 2

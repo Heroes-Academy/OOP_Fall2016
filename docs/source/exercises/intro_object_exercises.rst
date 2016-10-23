@@ -7,14 +7,44 @@ These examples assume that you are using the basic pygame template.
 If you don't have it, find it `here <https://github.com/Heroes-Academy/OOP_Fall2016/blob/master/code/base_pygame.py>`_
 
 
-Exercise 1
-**********
-
-Before the while loop, have the following code:
+Anatomy of the Pygame loop
+**************************
 
 .. code-block:: python
     :linenos:
-    :caption: set up the class and the variables
+
+    ##### INIT SECTION
+    # import pygame
+    # any functions you want to use should be defined right away
+    # create pygame variables
+    # create variables you want to use inside the game loop
+
+
+    ##### WHILE LOOP SECTION
+    while not done:
+        # check for events
+        # fill the screen with white
+        ##### ACTION CODE
+        # do any actions that we want to do
+        # this could be moving the box, etc
+        ##### FINISHING CODE
+        # end of while loop code, mostly the clock.tick()
+
+    #### POST WHILE LOOP SECTION
+    # once the code hits here, we can assume that the while loop is over and game is done
+    # do any last finishing code things here
+    # the important one is to tell pygame shut down
+
+
+Exercise 1
+**********
+
+Inside the INIT section:
+
+.. code-block:: python
+    :linenos:
+
+    # set up the class and the variables
 
     class Box:
         x = 0
@@ -32,11 +62,12 @@ Before the while loop, have the following code:
     box_info.speedx = 10
     box_info.speedy = 10
 
-Similar to the other exercises, use this to make the rectangle inside the while loop:
+Similar to the other exercises, use this to make the rectangle inside the ACTION CODE section:
 
 .. code-block:: python
     :linenos:
-    :caption: Use the box_info object to draw!
+
+    # Use the box_info object to draw!
 
     pygame.draw.rect(surface, BLACK, [box_info.x, box_info.y, box_info.w, box_info.h])
 
@@ -50,7 +81,8 @@ The code for getting the width and height of the screen are the following:
 
 .. code-block:: python
     :linenos:
-    :caption: get the screen width and height
+
+    # get the screen width and height
 
     screen = pygame.display.get_surface()
     W, H = screen.get_size()
@@ -59,7 +91,8 @@ When testing to see if the box is beyond the sides of the screen, use the correc
 
 .. code-block:: python
     :linenos:
-    :caption: calculate special variables
+
+    # calculate special variables
 
     right_side = box_info.x + box_info.w
     left_side = box_info.x
@@ -78,7 +111,8 @@ Write the code for the update position function:
 
 .. code-block:: python
     :linenos:
-    :caption: Compute the new position using the box_info object
+
+    # Compute the new position using the box_info object
 
     def update_position(box_info):
         ### test if the box is out of bounds
@@ -93,11 +127,11 @@ Write the code for the update position function:
 The function should be used inside the while loop to update the position before it is drawn.
 
 
-Exercise 3
-**********
+Bonus Exercise
+**************
 
 For fun, we are going to add gravity.  Gravity is just a way of updating the y speed.
-Add the following code into update_position.
+Add the following code into update_position.  Your Box class will need a new variable: mass.
 
 .. code-block:: python
     :linenos:
@@ -114,3 +148,38 @@ Add the following code into update_position.
 Play with different values of gravity.  Also, play with different values of mass.
 
 
+Exercise 3
+**********
+
+Let's add a function into our class so that it can draw itself.
+
+
+
+.. code-block:: python
+    :linenos:
+
+    # Compute the new position using the box_info object
+
+    class Box:
+        x = 0
+        y = 0
+        w = 0
+        h = 0
+        speedx = 0
+        speedy = 0
+
+        def update_position(self):
+            ### everything stays the same, except you can get access to the variables using "self" now
+            ### test if the box is out of bounds
+            ### if it is,
+            ###        the speed should negative for
+            ###        the corresponding side that is out of bounds
+            ###
+            ### then update the position by the speed
+            ### so, the x changes by speed
+            ### the y changes by speed
+
+    ## assume we do
+    ## box = Box()
+    ## then, later, you can use it with
+    ## box.update_position()

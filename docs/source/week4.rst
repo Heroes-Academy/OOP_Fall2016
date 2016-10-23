@@ -12,13 +12,7 @@ Part 1: Encapsulation Exercise
 On the following page, you will find a set of exercises.
 They are to help you understand what it means to encapsulate code and why it is useful.
 
-:doc:`Encapsulation Exercises <encapsulation_exercises>`
-
-:doc:`Encapsulation Exercises <encapsulation_exercises.rst>`
-
-:ref:`Encapsulation Exercises <encapsulation_exercises.rst>`
-
-:ref:`Encapsulation Exercises <encapsulation_exercises>`
+:doc:`Encapsulation Exercises <exercises/encapsulation_exercises>`
 
 
 
@@ -45,4 +39,4 @@ This is usually referred to as "construction" or "instantiation".
 
 For the rest of this part, you will make your own objects to represent boxes.
 
-:doc:`Click here for the exercises <intro_object_exercises.rst>`
+:doc:`Click here for the exercises <exercises/intro_object_exercises>`

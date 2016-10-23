@@ -3,8 +3,11 @@ Encapsulation Exercises
 
 These examples go through and make the encapsulation more and more complete for moving a square around the screen.
 
+**STEP ONE**
+
+Use the template. 
 These examples assume that you are using the basic pygame template.
-If you don't have it, find it `here <https://github.com/Heroes-Academy/OOP_Fall2016/blob/master/code/base_pygame.py>`_
+ `Get it here <https://github.com/Heroes-Academy/OOP_Fall2016/blob/master/code/base_pygame.py>`_
 
 The examples have two parts: defining the information for the square and then using that information.
 

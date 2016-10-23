@@ -274,8 +274,32 @@ Using the property decorator for a class:
             return self.x + self.w
             
     box = Box()
+    box.x = 50
     print(box.print_info, type(box.print_info))
     print(box.right_side, type(box.right_side))
 
     
+Using the :code:`__init__` constructor:
+
+.. code-block:: python
+    :linenos:
+    
+    class Box:
+        def __init__(self, x, y, w, h):
+            self.x = x
+            self.y = y
+            self.w = w
+            self.h = h
+        
+        def print_info(self):
+            pass
+        
+        @property
+        def right_side(self):
+            return self.x + self.w
+            
+    box = Box(50, 50, 100, 100)
+    print(box.print_info, type(box.print_info))
+    print(box.right_side, type(box.right_side))
+
     

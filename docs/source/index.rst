@@ -67,6 +67,13 @@ Contents:
    week8
    week9
    week10
+   
+.. toctree::
+   :maxdepth: 3
+   :caption: Supplementary
+   
+   exercises/intro_object_exercises
+   exercises/encapsulation_exercises
 
 
 .. .. toctree:\:

@@ -27,7 +27,9 @@ Common Issues
     - this is can be an issue sometimes with the way Python was installed.
     - I have had this happen to me with Anaconda
     - Try the following:
-::
+
+.. raw:: 
+
     In the Anaconda menu, choose Tools, then "open command prompt".
 
     If you don't have Anaconda and are using windows, open the Run window (hit Windows key and R at the same time).  Then, type in "cmd" and hit enter.

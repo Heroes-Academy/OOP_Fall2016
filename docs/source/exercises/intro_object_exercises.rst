@@ -263,6 +263,8 @@ Play with different values of gravity.
 Gravity+Jumping 2
 *****************
 
+(For a great discussion of this, `see this stackoverflow answer <http://gamedev.stackexchange.com/questions/15708/how-can-i-implement-gravity>`_)
+
 Gravity is a force that acts on the y direction of an object. 
 Specifically, if your object has a speed, then it is accelerating downwards by gravity. 
 If you jump, you are accelerating upwards.  

@@ -11,9 +11,11 @@ Exercise 1
 **********
 
 Before the while loop, have the following code:
+
 .. code-block:: python
     :linenos:
     :caption: set up the class and the variables
+
     class Box:
         x = 0
         y = 0
@@ -31,9 +33,11 @@ Before the while loop, have the following code:
     box_info.speedy = 10
 
 Similar to the other exercises, use this to make the rectangle inside the while loop:
+
 .. code-block:: python
     :linenos:
     :caption: Use the box_info object to draw!
+
     pygame.draw.rect(surface, BLACK, [box_info.x, box_info.y, box_info.w, box_info.h])
 
 Compare this code to the earlier exercises.  Write the "make_box" function which uses
@@ -43,16 +47,20 @@ Exercise 2
 **********
 
 The code for getting the width and height of the screen are the following:
+
 .. code-block:: python
     :linenos:
     :caption: get the screen width and height
+
     screen = pygame.display.get_surface()
     W, H = screen.get_size()
 
 When testing to see if the box is beyond the sides of the screen, use the correct side:
+
 .. code-block:: python
     :linenos:
     :caption: calculate special variables
+
     right_side = box_info.x + box_info.w
     left_side = box_info.x
     top_side = box_info.y
@@ -67,9 +75,11 @@ Finally, if the bottom_side is larger than H, it is out of bounds.
 
 
 Write the code for the update position function:
+
 .. code-block:: python
     :linenos:
     :caption: Compute the new position using the box_info object
+
     def update_position(box_info):
         ### test if the box is out of bounds
         ### if it is,
@@ -88,8 +98,10 @@ Exercise 3
 
 For fun, we are going to add gravity.  Gravity is just a way of updating the y speed.
 Add the following code into update_position.
+
 .. code-block:: python
     :linenos:
+
     # recall that
     #          x += y
     # is the same as

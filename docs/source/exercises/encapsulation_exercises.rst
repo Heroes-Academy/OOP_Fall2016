@@ -10,8 +10,10 @@ The examples have two parts: defining the information for the square and then us
 
 Anatomy of the Pygame loop
 **************************
+
 .. code-block:: python
     :linenos:
+
     ##### INIT SECTION
     # import pygame
     # any functions you want to use should be defined right away
@@ -38,16 +40,20 @@ Example 1
 *********
 
 Inside the INIT section:
+
 .. code-block:: python
     :linenos:
+
     origin_x = 50
     origin_y = 50
     square_width = 100
     square_height = 100
 
 Inside the ACTION CODE section:
+
 .. code-block:: python
     :linenos:
+
     # the syntax for rect is (display surface, color, rectangle_info)
     # and the rectangle_info is (x, y, width, height)
     pygame.draw.rect(surface, BLACK, [origin_x, origin_y, square_width, square_height])
@@ -62,14 +68,18 @@ Example 2
 *********
 
 Inside the INIT section:
+
 .. code-block:: python
     :linenos:
+
     box_info = {'x': 50, 'y': 50, 'width': 100, 'height': 100}
 
 
 Inside the ACTION CODE section:
+
 .. code-block:: python
     :linenos:
+
     # the syntax for rect is (display surface, color, rectangle_info)
     # and the rectangle_info is (x, y, width, height)
     pygame.draw.rect(surface, BLACK, [box_info['x'], box_info['y'], box_info['width'], box_info['height']])
@@ -83,8 +93,10 @@ Example 3
 *********
 
 Inside the INIT section:
+
 .. code-block:: python
     :linenos:
+
     def make_box(x, y, width, height):
         new_box_info = {'x': x, 'y': y, 'width': width, 'height': height}
         return new_box_info
@@ -92,8 +104,10 @@ Inside the INIT section:
     box_info = make_box(50, 50, 100, 100)
 
 Inside the ACTION CODE section:
+
 .. code-block:: python
     :linenos:
+
     # the syntax for rect is (display surface, color, rectangle_info)
     # and the rectangle_info is (x, y, width, height)
     pygame.draw.rect(surface, BLACK, [box_info['x'], box_info['y'], box_info['width'], box_info['height']])
@@ -106,8 +120,10 @@ Example 4
 *********
 
 Inside the INIT section:
+
 .. code-block:: python
     :linenos:
+
     def make_box(x, y, width, height):
         new_box_info = {'x': x, 'y': y, 'width': width, 'height': height}
         return new_box_info
@@ -118,8 +134,10 @@ Inside the INIT section:
     box_info = make_box(50, 50, 100, 100)
 
 Inside the ACTION CODE section:
+
 .. code-block:: python
     :linenos:
+
     # the syntax for rect is (display surface, color, rectangle_info)
     # and the rectangle_info is (x, y, width, height)
     draw_box(surface, BLACK, box_info)

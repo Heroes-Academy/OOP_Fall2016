@@ -313,12 +313,6 @@ Bonus Exercise
 
 If you want to add human movement to the hero, you can do the following:
 
-Up-Down triggers
-****************
-
-Let's say you want somethign constant to be happening while a button is pressed.
-You could do the following:
-
 .. code-block:: python
     :linenos:
     
@@ -330,7 +324,4 @@ You could do the following:
         elif event.type == pygame.KEYDOWN:
             if event.key == pygame.K_LEFT:
                 hero1.move_left()
-        elif event.type == pygame.KEYUP:
-            if event.key == pygame.K_SPACE:
-                spacedown = False
                 

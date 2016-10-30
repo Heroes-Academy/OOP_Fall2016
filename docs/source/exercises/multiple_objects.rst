@@ -190,13 +190,13 @@ check to see if :code:`self.rect` is outside of the screen. I have done the firs
     # you can also do "unpacking"
     # WIDTH, HEIGHT = WINDOW_SIZE 
     
-    if self.rect.left < 0:
+    if self.rect.right > WIDTH:
         # we will now switch directions
         self.going_right = False
         # we will also set the left side to be equal to the window side
         # this means we won't go off screen and bug out
-        self.rect.left = 0
-    elif self.rect.right > WIDTH:
+        self.rect.right = WIDTH
+    elif self.rect.left < 0:
         print("you should write code here!")
     elif self.rect.top < 0:
         print("you should write code here!")

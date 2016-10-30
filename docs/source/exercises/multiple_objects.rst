@@ -146,7 +146,7 @@ Exercise 3
 
 Let's make the hero move on their own! 
 
-Note: this code assumes you have done the :raw:`Clean Environment` exercise 
+Note: this code assumes you have done the :doc:`clean_environment` exercise 
 because it assumes the :code:`SPEEDX` and :code:`SPEEDY` variables.
 
 NOTE: here we will pass in :code:`SPEEDX` and :code:`SPEEDY` explicitly into the move functions.

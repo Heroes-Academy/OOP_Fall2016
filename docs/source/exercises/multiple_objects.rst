@@ -267,10 +267,9 @@ What should the code look like now inside the :code:`while` loop?
 .. raw:: html
     
     <div id="spoiler" style="display:none"> 
-    
     hero1.handle_collision(wall1)
+    </div> <br>
     
-    </div> 
     <button title="Click to show" type="button" 
     onclick="if(document.getElementById('spoiler') .style.display=='none') {document.getElementById('spoiler') .style.display=''}else{document.getElementById('spoiler') .style.display='none'}">
     Show/hide

@@ -31,6 +31,8 @@ The top of the file is pretty standard.  I have added extra imports to handle di
 The settings.py file is:
 
 .. code-block:: python
+    :linepos:
+
     BLACK = (0, 0, 0)
     WHITE = (255, 255, 255)
     GREEN = (0, 255, 0)

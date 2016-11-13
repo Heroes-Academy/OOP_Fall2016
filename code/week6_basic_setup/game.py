@@ -17,7 +17,7 @@ class Game:
         pygame.display.set_caption(TITLE)
 
     def setup(self):
-        self.hero = Hero(WIDTH/2,HEIGHT/2,10,10)
+        self.hero = Hero(WIDTH/2, HEIGHT/2, 10, 10)
         self.walls = Walls()
         self.walls.platform_level()
 

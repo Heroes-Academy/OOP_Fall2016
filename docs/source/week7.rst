@@ -4,27 +4,16 @@
 Last week we talked about designing objects.
 This week, we will be talking about how you can make an ecosystem of objects to work together.
 
-First, we will talk more specifically about inheritance.
-- I will create a set of exercises for anyone to go through who feels that they are having trouble with objects.
-- this set of exercises will break out of the pygame theme
-- instead, it will start with the simple object and have them use that to understand.
+Topics:
 
-The ecosystem is going to look at first what it means to inherit from sprite.
-a sprite has a very specific set of functions.
+1. Inheritance and how to use it
+2. Re-capping classes
+    - :doc:`Click here for the class recap page <exercises/class_recap>`
+3. Designing an ecosystem of objects in the game
+    - :doc:`Click here for the exercise page <exercises/object_ecosystem>`
 
-Also, draw a diagram of how all of these things fit together.
-Also also, expand the cheat sheet for pygame stuff. it should include classes and pygame functions.
+In designing the game, you should identify:
 
-include the following:
-- importing
-- basic classes
-- inheritance
-- instantiation
-- functional programming
-
-given a sprite-based hero, start planning out the rest of the game.
-
-the planning should identify:
 1. an entity that will be used in many places
     - examples include bricks in brickbreak games
     - monsters in other games

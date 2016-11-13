@@ -73,6 +73,8 @@ Contents:
    :caption: Supplementary
    
    exercises/index.rst
+   helpers/index.rst
+   
 .. .. toctree:\:
 ..    :maxdepth: 2
 ..    :caption: Resources and Guides

@@ -1,0 +1,34 @@
+give a one sentence description of your game
+
+how does the human interact with the game?
+
+what objects exist in the game?
+
+list the objects that are drawn no matter what
+
+list the objects that are drawn conditionally and describe the condition in which they are drawn
+
+============
+
+
+topics left to cover:
+1. loading an image
+2. iterating through the frames
+3. interaction between sprites
+
+
+pygame recipes:
+1. load image and draw
+2. collide two sprites
+3. small objects
+
+
+class recipes
+1. classmethods
+2. polymorphism
+
+
+FNOFIRST15
+
+
+

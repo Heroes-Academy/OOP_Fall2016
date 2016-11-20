@@ -1,4 +1,4 @@
-[Week 7] Object Practice and Projects
+[Week 8] Object Practice and Projects
 =====================================
 
 Today's Task

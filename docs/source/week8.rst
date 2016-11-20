@@ -42,4 +42,5 @@ You should be referencing at least some of these!
     - This has examples of most of Python's syntax!
 - :doc:`Classes cookbook <helpers/classes_cookbook>`
     - This has examples of the basics of classes!
-
+- :doc:`A giant color list! <helpers/colors>`
+    - You can use this to get tons of colors into your game!

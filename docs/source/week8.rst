@@ -4,8 +4,8 @@
 Today's Task
 ************
 
-1. Answer the project rubric
-2. Talk your project idea with the information below to the class
+1. Outline your project using the rubric below
+2. Using the outline, talk about your project 
 3. Work on your project
 
 
@@ -25,7 +25,7 @@ Project Rubric
     - What interaction will the user have?
     - Specifically, what keys will be used and what effect will they have
 5. What is the minimal set of things you need to have to have your game working?
-6. List 3 1-step additions you could make
+6. List three 1-step additions you could make
     - It has to add only 1 additional piece of complexity
 
 Cookbooks

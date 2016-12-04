@@ -235,7 +235,7 @@ To solve this problem, we put a :code:`draw` function inside the :code:`BasicSpr
             
         def draw(self, screen):
             # draw this object's image onto the passed in screen variable
-            self.image.blit(self.screen, self.rect)
+            screen.blit(self.image, self.rect)
             
 Moving a sprite
 ^^^^^^^^^^^^^^^
@@ -729,4 +729,90 @@ Menus
     - The card then gives all up the information to its members. 
 
 
+.. 
 
+    Card View
+    ^^^^^^^^^
+    
+    The concept of a card view is pretty simple. Instead of having the :code:`Game` object
+    initalize, update, and draw everything, it instead only calls the functions of a card.
+    Then, the card calls everything. 
+    
+    .. code-block:: python
+
+            
+    
+            
+        import pygame
+        
+        from settings import *
+            
+        class Card:
+            def __init__(self, objects):
+                self.objects = objects
+            
+            def update(self):
+                pass
+            
+            def draw(self, screen):
+                self.objects.draw(screen)
+                
+        class Cards:
+            def __init__(self, cards, initial_card):
+                self.cards = cards
+                self.current_card = self.cards[initial_card]
+            
+            def update(self):
+                self.current_card.update()
+            
+            def draw(self, screen):
+                self.current_card.draw(screen)
+            
+            def switch(self, card_name):
+                if card_name in self.cards.keys():
+                    self.current_card = self.cards[card_name]
+                
+            
+        class Game:
+            def __init__(self, cards, initial_card):
+                pygame.init()
+                self.screen = pygame.display.set_mode(WINDOW_SIZE)
+                self.clock = pygame.time.Clock()
+                pygame.display.set_caption(TITLE)
+                self.cards = cards
+                    
+            def run(self):
+                done = False
+        
+                while not done:
+        
+                    card = self.cards.current_card()
+        
+                    for event in pygame.event.get():
+        
+                        if event.type == pygame.QUIT:
+                            done = True
+                        else:
+                            current_card.handle_event(event)
+        
+                    if current_card.is_switching == True:
+                        self.current_cardname = current_card.get_next_card()
+                        current_card = self.cards[current_card]
+        
+                    current_card.update_all()
+        
+                    current_card.draw(self.screen)
+        
+                    pygame.display.flip()
+                    self.clock.tick(FPS)
+                pygame.quit()
+        
+        
+        game = Game()
+        cards = {'test': BasicCard()}
+        cards['test'].add_text(Text('Awesome'))
+        
+        cards['alt'] = BasicCard()
+        cards['alt'].add_text(Text('Sauce'))
+        game.set_cards(cards, 'test')
+        game.run()
